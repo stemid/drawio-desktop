@@ -34,6 +34,9 @@
     "category": "Graphics",
     "maintainer": "JGraph <support@draw.io>",
     "icon": "./build",
+    "fpm": [
+      "--rpm-rpmbuild-define '_build_id_links none'"
+    ],
     "target": [
       "AppImage",
       "deb",
